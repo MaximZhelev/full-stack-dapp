@@ -2,7 +2,7 @@
 
 ## Tooling
 
-- [Next.js](https://github.com/vercel/next.js/): client to interact with smart contracts
+- [Next.js](https://github.com/vercel/next.js/)
 - [Hardhat](https://github.com/nomiclabs/hardhat): compile and run the smart contracts on a local development network
 - [TypeChain](https://github.com/ethereum-ts/TypeChain): generate TypeScript types for smart contracts
 - [Ethers](https://github.com/ethers-io/ethers.js/): renowned Ethereum library and wallet implementation
@@ -23,6 +23,18 @@ Create a `.env` following the `.env.example`:
 INFURA_API_KEY=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 MNEMONIC=here is where your twelve words mnemonic should be put my friend
 ```
+
+### Local Deployment & Frontend
+
+```sh
+$ npx hardhat node
+$ npm run compile
+$ npm run deploy:localhost
+$ npm run dev
+```
+
+Change greeterAddress with your contract address.
+Manually add a local private key to your Metamask wallet and change to localhost:8545
 
 ### Compile
 
