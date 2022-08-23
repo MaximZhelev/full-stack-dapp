@@ -33,7 +33,7 @@ $ npm run deploy:localhost
 $ npm run dev
 ```
 
-Change greeterAddress with your contract address.\n
+Change greeterAddress with your contract address.
 Manually add a local private key to your Metamask wallet and change to localhost:8545.
 
 ### Compile
